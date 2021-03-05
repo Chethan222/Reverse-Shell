@@ -34,6 +34,8 @@ def bind_socket():
         print("Scoket Binding Error: "+str(msg)+"\n"+"Retrying...")
         create_socket()
 
+# Send command
+
 
 def send_command(connection):
     while True:
