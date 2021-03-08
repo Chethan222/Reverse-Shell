@@ -5,7 +5,7 @@ import sys
 
 
 soc = socket.socket()
-host = "192.168.0.103"
+host = "34.87.76.231"
 port = 9999
 
 soc.connect((host, port))
